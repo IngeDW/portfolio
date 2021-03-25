@@ -189,27 +189,33 @@ nav {
     /*background-color: #1e1e3a;
     background-color: #333;
     background-color: black;*/
+    background-color: rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     padding: 1em 1.5em;
     position: fixed;
     top: 0;
+    background-color: #F4F1F0;
     width: 100vw;
     z-index: 11;
 }
 
 li {
-    color: white;
+    color: darkseagreen;
     font-size: 0.9em;
 }
 
 nav a {
     color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
+    color: #2c241f;
+    font-weight: 600;
     text-decoration: none;
 }
 
 nav a:hover {
     color: #8B4513;
     color: white;
+    color: darkseagreen;
 }
 
 nav ul {
@@ -220,10 +226,14 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+    max-width: 70vw;
+    max-width: 2560px;
+    padding: 0em 3.5em;
 }
 
 ul li {
     margin-left: 3em;
+    
 }
 
 nav li:first-child {
@@ -241,6 +251,8 @@ nav li:first-child {
     }
     nav ul {
         justify-content: space-between;
+        padding: 0em 1.5em;
+        margin: 0;
     }
     nav li {
         padding: 0 0 1em 0.5em;
