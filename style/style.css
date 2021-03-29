@@ -15,6 +15,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    
 }
 
 
@@ -596,7 +597,7 @@ aside p {
     position: absolute;
     z-index: 10;
     top: -15vh;
-    right: 10%;
+    right: 7%;
 }
 
 /*
