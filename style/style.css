@@ -83,12 +83,24 @@ h3 {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     color: #8B4513;
-    margin-top: -1em;
+    margin-top: -1.5em;
+    margin-bottom: 1a.5em;
     color: #aaa;
     color: #43bfc6;
     color: #78AB46;
     color: #6f8863;
     color: darkseagreen;
+}
+
+.h3donker{
+    font-weight: 400;
+    padding: 0em 0.6em;
+    margin-top: 0.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #2c241f;
+    color: white;
 }
 
 h4 {
@@ -563,7 +575,7 @@ aside {
 
 aside p {
     color: white;
-    width: 60vw;
+    width: 80vw;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -579,11 +591,11 @@ aside p {
 }
 
 #blauwvlak {
-    width: 175px;
+    width: 25vw;
     max-width: 20vw;
     position: absolute;
     z-index: 10;
-    top: -18vh;
+    top: -15vh;
     right: 10%;
 }
 
@@ -607,9 +619,9 @@ aside p {
         max-width: 700px;
     }
     #blauwvlak {
-        width: 150px;
+        min-width: 30vw;
         z-index: 10;
-            top: -12vh;
+        top: -10vh;
 
 
     }
