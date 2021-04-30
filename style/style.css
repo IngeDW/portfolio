@@ -678,6 +678,13 @@ aside p {
 
 }
 
+#plogging-header{
+        background-image: url(../images/zee-clean.png);
+    background-position: center center;
+    background-size: cover;
+    max-height: 65vh;
+}
+
 #financy-header {
     background: rgb(34, 30, 59);
     background: linear-gradient(38deg, rgba(34, 30, 59, 1) 0%, rgba(84, 77, 124, 1) 100%);
